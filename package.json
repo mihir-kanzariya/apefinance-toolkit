@@ -1,10 +1,11 @@
 {
-  "name": "apefinance-toolkit",
+  "name": "apefinance-libs",
   "version": "0.0.3",
   "description": "Ape Finance frontend packages",
   "workspaces": [
     "packages/*"
   ],
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mihir-kanzariya/apefinance-toolkit.git"

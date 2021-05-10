@@ -1,6 +1,6 @@
 import { InputHTMLAttributes } from "react";
 
-export type ApeFinanceToggleTheme = {
+export type PancakeToggleTheme = {
   handleBackground: string;
   handleShadow: string;
 };
@@ -12,7 +12,7 @@ export const scales = {
 
 export type Scales = typeof scales[keyof typeof scales];
 
-export interface ApeFinanceToggleProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface PancakeToggleProps extends InputHTMLAttributes<HTMLInputElement> {
   scale?: Scales;
   checked?: boolean;
 }
@@ -26,13 +26,13 @@ export interface InputProps {
 }
 
 export const scaleKeys = {
-  apefinanceSize: "apefinanceSize",
+  pancakeSize: "pancakeSize",
   travelDistance: "travelDistance",
   toggleHeight: "toggleHeight",
   toggleWidth: "toggleWidth",
-  apefinanceThickness: "apefinanceThickness",
-  apefinanceTwoOffset: "apefinanceTwoOffset",
-  apefinanceThreeOffset: "apefinanceThreeOffset",
+  pancakeThickness: "pancakeThickness",
+  pancakeTwoOffset: "pancakeTwoOffset",
+  pancakeThreeOffset: "pancakeThreeOffset",
   butterTop: "butterTop",
   butterLeft: "butterLeft",
   butterWidth: "butterWidth",

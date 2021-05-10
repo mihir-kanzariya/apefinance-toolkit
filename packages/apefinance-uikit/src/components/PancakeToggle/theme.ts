@@ -1,12 +1,12 @@
 import { darkColors, lightColors } from "../../theme/colors";
-import { ApeFinanceToggleTheme } from "./types";
+import { PancakeToggleTheme } from "./types";
 
-export const light: ApeFinanceToggleTheme = {
+export const light: PancakeToggleTheme = {
   handleBackground: lightColors.backgroundAlt,
   handleShadow: lightColors.textDisabled,
 };
 
-export const dark: ApeFinanceToggleTheme = {
+export const dark: PancakeToggleTheme = {
   handleBackground: darkColors.backgroundAlt,
   handleShadow: darkColors.textDisabled,
 };

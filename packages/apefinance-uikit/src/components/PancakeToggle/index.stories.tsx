@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ApeFinanceToggle from "./ApeFinanceToggle";
+import PancakeToggle from "./PancakeToggle";
 
 export default {
-  title: "Components/ApeFinanceToggle",
-  component: ApeFinanceToggle,
+  title: "Components/PancakeToggle",
+  component: PancakeToggle,
 };
 
 export const Default: React.FC = () => {
@@ -14,10 +14,10 @@ export const Default: React.FC = () => {
   return (
     <>
       <div style={{ marginBottom: "32px" }}>
-        <ApeFinanceToggle checked={isChecked} onChange={toggle} />
+        <PancakeToggle checked={isChecked} onChange={toggle} />
       </div>
       <div>
-        <ApeFinanceToggle checked={isChecked} onChange={toggle} scale="sm" />
+        <PancakeToggle checked={isChecked} onChange={toggle} scale="sm" />
       </div>
     </>
   );

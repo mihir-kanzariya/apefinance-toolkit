@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/eslint-config-apefinance",
+  "name": "@apefinance-libs/eslint-config-apefinance",
   "version": "1.1.0",
   "description": "Eslint config for Ape Finance",
   "main": "lib/index.js",
